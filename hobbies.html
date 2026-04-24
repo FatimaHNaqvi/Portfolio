@@ -1,16 +1,81 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Hobbies</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Hobbies | Fatima Haider Naqvi</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Courier+Prime:wght@400;700&display=swap" rel="stylesheet">
+  <style>
+    .hobby-grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 1.2rem;
+      margin-top: 1.5rem;
+    }
+    .hobby-item {
+      background: rgba(255,255,255,0.07);
+      border: 1px solid rgba(255,255,255,0.15);
+      border-radius: 14px;
+      padding: 1.5rem 1.2rem;
+      text-align: center;
+      transition: all 0.3s ease;
+    }
+    .hobby-item:hover {
+      background: rgba(255,255,255,0.13);
+      border-color: rgba(222, 83, 73, 0.4);
+      transform: translateY(-3px);
+    }
+    .hobby-emoji { font-size: 2.2rem; margin-bottom: 0.6rem; }
+    .hobby-item h3 { font-size: 1rem; margin-bottom: 0.5rem; }
+    .hobby-item p { font-size: 0.85rem; color: rgba(255,255,255,0.65); line-height: 1.5; }
+    .back-link { display: inline-flex; align-items: center; gap: 0.4rem; color: rgba(255,255,255,0.6); text-decoration: none; font-size: 0.9rem; margin-bottom: 1rem; transition: color 0.2s; }
+    .back-link:hover { color: #de5349; }
+    @media (max-width: 700px) { .hobby-grid { grid-template-columns: 1fr; } }
+  </style>
 </head>
 <body>
-      <h1>My Hobbies</h1>
-  <ul>
-    <li><strong>Reading Books:</strong> I enjoy immersing myself in different worlds and perspectives through a wide range of genres including fiction, science fiction, and non-fiction.</li>
-    <li><strong>Horse Riding:</strong> I find joy and peace in riding horses. It helps me connect with nature and develop discipline and patience.</li>
-    <li><strong>Watching TV Shows and Movies:</strong> I love exploring different cultures, stories, and characters through entertainment. It’s both a form of relaxation and inspiration for me.</li>
-  </ul>
+  <video autoplay muted loop id="bg-video">
+    <source src="src.mp4" type="video/mp4">
+  </video>
+
+  <div class="container" style="margin-top: 80px; gap: 0;">
+    <div class="card reveal visible" style="width: 65%;">
+      <a href="index.html" class="back-link"><i class="fas fa-arrow-left"></i> Back to Portfolio</a>
+      <h2><i class="fas fa-heart section-icon"></i> Beyond the Code</h2>
+      <p style="text-align:center; color:rgba(255,255,255,0.65); font-size:0.92rem;">
+        A few things I love when I'm not building software.
+      </p>
+
+      <div class="hobby-grid">
+
+        <div class="hobby-item">
+          <div class="hobby-emoji">📚</div>
+          <h3>Reading</h3>
+          <p>From science fiction to non-fiction, I love immersing myself in new worlds and perspectives. Books are my favourite way to think differently.</p>
+        </div>
+
+        <div class="hobby-item">
+          <div class="hobby-emoji">🐎</div>
+          <h3>Horse Riding</h3>
+          <p>There's something grounding about riding — it takes patience, discipline, and presence. It's my way of connecting with nature and switching off completely.</p>
+        </div>
+
+        <div class="hobby-item">
+          <div class="hobby-emoji">🎬</div>
+          <h3>TV & Cinema</h3>
+          <p>I love exploring storytelling across cultures and genres. Great shows and films spark curiosity and remind me why narrative matters, even in tech.</p>
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+  <div class="side-icons">
+    <a href="mailto:hnaqvifatima@gmail.com" title="Email"><i class="fas fa-envelope"></i></a>
+    <a href="https://github.com/FatimaHNaqvi" target="_blank" title="GitHub"><i class="fab fa-github"></i></a>
+    <a href="https://www.linkedin.com/in/fatima-haider-naqvi-44529b214" target="_blank" title="LinkedIn"><i class="fab fa-linkedin"></i></a>
+  </div>
 </body>
 </html>
