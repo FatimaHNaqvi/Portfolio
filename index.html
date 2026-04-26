@@ -1,325 +1,466 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Fatima Haider Naqvi | Full Stack Developer</title>
-  <link rel="stylesheet" href="style.css">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Courier+Prime:wght@400;700&display=swap" rel="stylesheet">
-</head>
-<body>
-  <video autoplay muted loop id="bg-video">
-    <source src="src.mp4" type="video/mp4">
-  </video>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Fatima Haider Naqvi | Full Stack Developer</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Courier+Prime:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <video autoplay muted loop id="bg-video">
+      <source src="src.mp4" type="video/mp4" />
+    </video>
 
-  <nav class="navbar">
-    <div class="menu-toggle" id="menu-toggle">&#9776;</div>
-    <ul class="nav-links" id="nav-links">
-      <li><a href="#home"><i class="fas fa-home"></i></a></li>
-      <li><a href="#about">About</a></li>
-      <li><a href="#skills">Skills</a></li>
-      <li><a href="#experience">Experience</a></li>
-      <li><a href="#projects">Projects</a></li>
-      <li><a href="#education">Education</a></li>
-    </ul>
-  </nav>
+    <nav class="navbar">
+      <div class="menu-toggle" id="menu-toggle">&#9776;</div>
+      <ul class="nav-links" id="nav-links">
+        <li>
+          <a href="#home"><i class="fas fa-home"></i></a>
+        </li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#experience">Experience</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#education">Education</a></li>
+      </ul>
+    </nav>
 
-  <div class="container">
-
-    <!-- HOME -->
-    <div class="home card reveal" id="home">
-      <h1>Hi, I'm <span class="highlight">Fatima!</span></h1>
-      <div class="terminal">
-        <div class="terminal-header">
-          <span class="red"></span>
-          <span class="yellow"></span>
-          <span class="green"></span>
-          <span class="terminal-title">fatima@portfolio ~ </span>
-        </div>
-        <div class="terminal-body">
-          <pre id="typed-text"></pre>
+    <div class="container">
+      <!-- HOME -->
+      <div class="home card reveal" id="home">
+        <h1>Hi, I'm <span class="highlight">Fatima!</span></h1>
+        <div class="terminal">
+          <div class="terminal-header">
+            <span class="red"></span>
+            <span class="yellow"></span>
+            <span class="green"></span>
+            <span class="terminal-title">fatima@portfolio ~ </span>
+          </div>
+          <div class="terminal-body">
+            <pre id="typed-text"></pre>
+          </div>
         </div>
       </div>
-    </div>
 
-    <!-- ABOUT -->
-    <div class="about card reveal" id="about">
-      <h2><i class="fas fa-user-circle section-icon"></i> About Me</h2>
-      <div class="about-content">
-        <h3>Fatima Haider Naqvi</h3>
-        <p class="role-tag">Full Stack Developer</p>
-        <p>
-          I'm a Full Stack Developer with a passion for building products that are as solid under the hood as they look on the surface.
-          Currently working in fintech at Hello Paisa, I design and ship secure, high-throughput financial systems — from routing payment
-          transactions across banking APIs to crafting the dashboards teams rely on every day.
+      <!-- ABOUT -->
+      <div class="about card reveal" id="about">
+        <h2><i class="fas fa-user-circle section-icon"></i> About Me</h2>
+        <div class="about-content">
+          <h3>Fatima Haider Naqvi</h3>
+          <p class="role-tag">Full Stack Developer</p>
+          <p>
+            I'm a Full Stack Developer with a passion for building products that
+            are as solid under the hood as they look on the surface. Currently
+            working in fintech at Hello Paisa, I design and ship secure,
+            high-throughput financial systems — from routing payment
+            transactions across banking APIs to crafting the dashboards teams
+            rely on every day.
+          </p>
+          <p>
+            My toolkit spans Java, PHP (Laravel), .NET, and MySQL, with a strong
+            emphasis on clean architecture, API design, and systems that scale.
+            More recently I've been working with AWS — deploying and managing
+            applications on EC2, storing assets on S3, and running databases on
+            RDS. I care about code that's maintainable — not just code that
+            works.
+          </p>
+        </div>
+      </div>
+
+      <!-- SKILLS -->
+      <div class="Skills card reveal" id="skills">
+        <h2><i class="fas fa-code section-icon"></i> Skills</h2>
+
+        <div class="skill-group">
+          <p class="skill-category">Frontend</p>
+          <div class="skill-tags">
+            <span class="skill-tag">HTML5</span>
+            <span class="skill-tag">CSS3</span>
+            <span class="skill-tag">JavaScript</span>
+
+            <span class="skill-tag">Responsive UI Design</span>
+            <span class="skill-tag">Bootstrap</span>
+          </div>
+        </div>
+
+        <div class="skill-group">
+          <p class="skill-category">Backend</p>
+          <div class="skill-tags">
+            <span class="skill-tag">Java</span>
+            <span class="skill-tag">Spring Boot</span>
+            <span class="skill-tag">PHP</span>
+            <span class="skill-tag">Laravel</span>
+            <span class="skill-tag">Lumen</span>
+            <span class="skill-tag">C#</span>
+            <span class="skill-tag">.NET</span>
+          </div>
+        </div>
+
+        <div class="skill-group">
+          <p class="skill-category">Database</p>
+          <div class="skill-tags">
+            <span class="skill-tag">MySQL</span>
+            <span class="skill-tag">SQL</span>
+            <span class="skill-tag">Oracle</span>
+          </div>
+        </div>
+
+        <div class="skill-group">
+          <p class="skill-category">APIs & Integration</p>
+          <div class="skill-tags">
+            <span class="skill-tag">Restful APIs</span>
+            <span class="skill-tag">SOAP</span>
+            <span class="skill-tag">API Integration</span>
+            <span class="skill-tag">Token Auth</span>
+            <span class="skill-tag">Mutual TLS</span>
+            <span class="skill-tag">Postman</span>
+          </div>
+        </div>
+
+        <div class="skill-group">
+          <p class="skill-category">Cloud & DevOps</p>
+          <div class="skill-tags">
+            <span class="skill-tag">AWS S3</span>
+            <span class="skill-tag">AWS RDS</span>
+            <span class="skill-tag">AWS EC2</span>
+          </div>
+        </div>
+
+        <div class="skill-group">
+          <p class="skill-category">Tools & Platforms</p>
+          <div class="skill-tags">
+            <span class="skill-tag">Git</span>
+            <span class="skill-tag">GitHub</span>
+            <span class="skill-tag">VS Code</span>
+            <span class="skill-tag">IntelliJ</span>
+            <span class="skill-tag">Visual Studio</span>
+            <span class="skill-tag">XAMPP</span>
+            <span class="skill-tag">SQL Workbench</span>
+            <span class="skill-tag">WinSCP</span>
+            <span class="skill-tag">Power BI</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- EXPERIENCE -->
+      <div class="Experience card reveal" id="experience">
+        <h2><i class="fas fa-briefcase section-icon"></i> Experience</h2>
+
+        <div class="timeline">
+          <div class="timeline-item">
+            <div class="timeline-dot"></div>
+            <div class="timeline-content">
+              <div class="timeline-header">
+                <h3>Junior Tech Developer</h3>
+                <span class="timeline-badge">2023 – Present</span>
+              </div>
+              <p class="timeline-company">
+                <i class="fas fa-building"></i> Hello Paisa, UK
+              </p>
+              <ul>
+                <li>
+                  Architected and implemented a high-volume financial
+                  transaction routing system, directing payments to appropriate
+                  banks via dynamic API integrations based on configurable
+                  routing rules.
+                </li>
+                <li>
+                  Built secure backend logic for payment processing with a focus
+                  on data integrity, fault tolerance, and audit trail
+                  compliance.
+                </li>
+                <li>
+                  Integrated with multiple banking partners using both REST and
+                  SOAP protocols, implementing token-based and mutual TLS
+                  authentication for each connection.
+                </li>
+                <li>
+                  Deployed and managed applications on AWS, utilising EC2 for
+                  compute, S3 for file storage, and RDS for managed database
+                  hosting.
+                </li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="timeline-item">
+            <div class="timeline-dot"></div>
+            <div class="timeline-content">
+              <div class="timeline-header">
+                <h3>Tech Trainee</h3>
+                <span class="timeline-badge">2022 – 2023</span>
+              </div>
+              <p class="timeline-company">
+                <i class="fas fa-building"></i> Jubilee Life Insurance, Pakistan
+              </p>
+              <ul>
+                <li>
+                  Developed internal admin dashboards and CRM tools using
+                  Laravel and .NET, improving team productivity and data
+                  visibility.
+                </li>
+                <li>
+                  Delivered user authentication flows, advanced record search,
+                  and full CRUD management across multiple internal
+                  applications.
+                </li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="timeline-item">
+            <div class="timeline-dot"></div>
+            <div class="timeline-content">
+              <div class="timeline-header">
+                <h3>IT Intern</h3>
+                <span class="timeline-badge">2021</span>
+              </div>
+              <p class="timeline-company">
+                <i class="fas fa-building"></i> Pakistan International Airlines
+                (PIA)
+              </p>
+              <ul>
+                <li>
+                  Rotated through telecom and IT departments, gaining hands-on
+                  exposure to enterprise networking and infrastructure
+                  operations.
+                </li>
+                <li>
+                  Built a practical understanding of how large-scale IT systems
+                  are managed and maintained in a high-availability environment.
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- PROJECTS -->
+      <div class="Projects card reveal" id="projects">
+        <h2><i class="fas fa-laptop-code section-icon"></i> Projects</h2>
+        <p class="projects-note">
+          A selection of personal and private projects I built to explore
+          real-world implementations.
+          <em
+            >Paisa Flow Cash is a private project. Proprietary work done during
+            employment remains confidential per company policy.</em
+          >
         </p>
-        <p>
-          My toolkit spans Java, PHP (Laravel), .NET, React.js, and MySQL, with a strong emphasis on clean architecture,
-          API design, and systems that scale. More recently I've been working with AWS — deploying and managing applications
-          on EC2, storing assets on S3, and running databases on RDS. I care about code that's maintainable — not just code that works.
-        </p>
+
+        <div class="project-grid">
+          <div class="project-card">
+            <div class="project-icon">
+              <i class="fas fa-money-bill-wave"></i>
+            </div>
+            <h3>Paisa Flow Cash</h3>
+            <p>
+              A fintech cash flow management system built for real-world
+              financial operations — tracking transactions, balances, and fund
+              movement across accounts with a clean backend and intuitive
+              interface. Deployed on AWS using EC2, S3, and RDS.
+            </p>
+            <div class="project-links">
+              <a
+                href="http://paisaflow-frontend-2026.s3-website-us-east-1.amazonaws.com/"
+                target="_blank"
+                class="btn-link"
+                ><i class="fas fa-external-link-alt"></i> Live Demo</a
+              >
+              <a
+                href="https://github.com/FatimaHNaqvi/PaisaFlow"
+                target="_blank"
+                class="btn-link"
+                ><i class="fab fa-github"></i> Code</a
+              >
+            </div>
+          </div>
+
+          <div class="project-card">
+            <div class="project-icon">
+              <i class="fas fa-calendar-check"></i>
+            </div>
+            <h3>Booking System</h3>
+            <p>
+              Full-stack booking platform with a custom REST API backend and a
+              clean, functional frontend.
+            </p>
+            <div class="project-links">
+              <a
+                href="https://demo-95mn.onrender.com/"
+                target="_blank"
+                class="btn-link"
+                ><i class="fas fa-external-link-alt"></i> Live Demo</a
+              >
+              <a
+                href="https://github.com/FatimaHNaqvi/demo-public"
+                target="_blank"
+                class="btn-link"
+                ><i class="fab fa-github"></i> Code</a
+              >
+            </div>
+            <p class="project-note">
+              ⚡ Hosted on Render free-tier — may take a moment to wake up.
+            </p>
+          </div>
+
+          <div class="project-card">
+            <div class="project-icon"><i class="fas fa-plug"></i></div>
+            <h3>API Integrations</h3>
+            <p>
+              Standalone utility APIs: a number-to-dollar text converter and a
+              temperature unit converter.
+            </p>
+            <div class="project-links">
+              <a
+                href="https://github.com/FatimaHNaqvi/numtodollar/"
+                target="_blank"
+                class="btn-link"
+                ><i class="fab fa-github"></i> Num to Dollar</a
+              >
+              <a
+                href="https://github.com/FatimaHNaqvi/tempc/"
+                target="_blank"
+                class="btn-link"
+                ><i class="fab fa-github"></i> Temp Converter</a
+              >
+            </div>
+          </div>
+
+          <div class="project-card">
+            <div class="project-icon"><i class="fas fa-truck-moving"></i></div>
+            <h3>Moving Company Website</h3>
+            <p>
+              Responsive marketing website for a moving company, built with
+              Bootstrap for clean, mobile-first layouts.
+            </p>
+            <div class="project-links">
+              <a
+                href="https://fatimahnaqvi.github.io/Moving-company-Website/"
+                target="_blank"
+                class="btn-link"
+                ><i class="fas fa-external-link-alt"></i> Live</a
+              >
+              <a
+                href="https://github.com/FatimaHNaqvi/Moving-company-Website"
+                target="_blank"
+                class="btn-link"
+                ><i class="fab fa-github"></i> Code</a
+              >
+            </div>
+          </div>
+
+          <div class="project-card">
+            <div class="project-icon"><i class="fas fa-id-card"></i></div>
+            <h3>Portfolio Website</h3>
+            <p>
+              This portfolio — designed and built from scratch with a
+              glassmorphism aesthetic, video background, and typed terminal
+              effect.
+            </p>
+            <div class="project-links">
+              <a
+                href="https://fatimahnaqvi.github.io/Resume/"
+                target="_blank"
+                class="btn-link"
+                ><i class="fas fa-external-link-alt"></i> Live</a
+              >
+              <a
+                href="https://github.com/FatimaHNaqvi/Resume"
+                target="_blank"
+                class="btn-link"
+                ><i class="fab fa-github"></i> Code</a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- EDUCATION -->
+      <div class="education card reveal" id="education">
+        <h2><i class="fas fa-graduation-cap section-icon"></i> Education</h2>
+
+        <div class="timeline">
+          <div class="timeline-item">
+            <div class="timeline-dot"></div>
+            <div class="timeline-content">
+              <div class="timeline-header">
+                <h3>B.E. Telecommunication Engineering</h3>
+                <span class="timeline-badge">2018 – 2022</span>
+              </div>
+              <p class="timeline-company">
+                <i class="fas fa-university"></i> NED University of Engineering
+                and Technology, Karachi
+              </p>
+              <p class="edu-grade">
+                <i class="fas fa-star"></i> CGPA: 3.79 / 4.0
+              </p>
+            </div>
+          </div>
+
+          <div class="timeline-item">
+            <div class="timeline-dot"></div>
+            <div class="timeline-content">
+              <div class="timeline-header">
+                <h3>Higher Secondary Certificate (HSC)</h3>
+                <span class="timeline-badge">2016 – 2018</span>
+              </div>
+              <p class="timeline-company">
+                <i class="fas fa-school"></i> BAMM PECHS Govt. College for
+                Women, Karachi
+              </p>
+              <p class="edu-grade"><i class="fas fa-star"></i> Grade: A+</p>
+            </div>
+          </div>
+
+          <div class="timeline-item">
+            <div class="timeline-dot"></div>
+            <div class="timeline-content">
+              <div class="timeline-header">
+                <h3>Secondary School Certificate (SSC)</h3>
+                <span class="timeline-badge">2004 – 2016</span>
+              </div>
+              <p class="timeline-company">
+                <i class="fas fa-school"></i> Azeem Children's Paradise School,
+                Karachi
+              </p>
+              <p class="edu-grade"><i class="fas fa-star"></i> Grade: A+</p>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
 
-    <!-- SKILLS -->
-    <div class="Skills card reveal" id="skills">
-      <h2><i class="fas fa-code section-icon"></i> Skills</h2>
-
-      <div class="skill-group">
-        <p class="skill-category">Frontend</p>
-        <div class="skill-tags">
-          <span class="skill-tag">HTML5</span>
-          <span class="skill-tag">CSS3</span>
-          <span class="skill-tag">JavaScript</span>
-          <span class="skill-tag">React.js</span>
-          <span class="skill-tag">Responsive UI Design</span>
-          <span class="skill-tag">Bootstrap</span>
-        </div>
-      </div>
-
-      <div class="skill-group">
-        <p class="skill-category">Backend</p>
-        <div class="skill-tags">
-          <span class="skill-tag">Java</span>
-          <span class="skill-tag">Spring Boot</span>
-          <span class="skill-tag">PHP</span>
-          <span class="skill-tag">Laravel</span>
-          <span class="skill-tag">Lumen</span>
-          <span class="skill-tag">C#</span>
-          <span class="skill-tag">.NET</span>
-        </div>
-      </div>
-
-      <div class="skill-group">
-        <p class="skill-category">Database</p>
-        <div class="skill-tags">
-          <span class="skill-tag">MySQL</span>
-          <span class="skill-tag">SQL</span>
-          <span class="skill-tag">Oracle</span>
-        </div>
-      </div>
-
-      <div class="skill-group">
-        <p class="skill-category">APIs & Integration</p>
-        <div class="skill-tags">
-          <span class="skill-tag">RESTful APIs</span>
-          <span class="skill-tag">SOAP</span>
-          <span class="skill-tag">API Integration</span>
-          <span class="skill-tag">Token Auth</span>
-          <span class="skill-tag">Mutual TLS</span>
-          <span class="skill-tag">Postman</span>
-        </div>
-      </div>
-
-      <div class="skill-group">
-        <p class="skill-category">Cloud & DevOps</p>
-        <div class="skill-tags">
-          <span class="skill-tag">AWS S3</span>
-          <span class="skill-tag">AWS RDS</span>
-          <span class="skill-tag">AWS EC2</span>
-        </div>
-      </div>
-
-      <div class="skill-group">
-        <p class="skill-category">Tools & Platforms</p>
-        <div class="skill-tags">
-          <span class="skill-tag">Git</span>
-          <span class="skill-tag">GitHub</span>
-          <span class="skill-tag">VS Code</span>
-          <span class="skill-tag">IntelliJ</span>
-          <span class="skill-tag">Visual Studio</span>
-          <span class="skill-tag">XAMPP</span>
-          <span class="skill-tag">SQL Workbench</span>
-          <span class="skill-tag">WinSCP</span>
-          <span class="skill-tag">Power BI</span>
-        </div>
-      </div>
-    </div>
-
-    <!-- EXPERIENCE -->
-    <div class="Experience card reveal" id="experience">
-      <h2><i class="fas fa-briefcase section-icon"></i> Experience</h2>
-
-      <div class="timeline">
-
-        <div class="timeline-item">
-          <div class="timeline-dot"></div>
-          <div class="timeline-content">
-            <div class="timeline-header">
-              <h3>Junior Tech Developer</h3>
-              <span class="timeline-badge">2023 – Present</span>
-            </div>
-            <p class="timeline-company"><i class="fas fa-building"></i> Hello Paisa, UK</p>
-            <ul>
-              <li>Architected and implemented a high-volume financial transaction routing system, directing payments to appropriate banks via dynamic API integrations based on configurable routing rules.</li>
-              <li>Built secure backend logic for payment processing with a focus on data integrity, fault tolerance, and audit trail compliance.</li>
-              <li>Integrated with multiple banking partners using both REST and SOAP protocols, implementing token-based and mutual TLS authentication for each connection.</li>
-              <li>Deployed and managed applications on AWS, utilising EC2 for compute, S3 for file storage, and RDS for managed database hosting.</li>
-            </ul>
-          </div>
-        </div>
-
-        <div class="timeline-item">
-          <div class="timeline-dot"></div>
-          <div class="timeline-content">
-            <div class="timeline-header">
-              <h3>Tech Trainee</h3>
-              <span class="timeline-badge">2022 – 2023</span>
-            </div>
-            <p class="timeline-company"><i class="fas fa-building"></i> Jubilee Life Insurance, Pakistan</p>
-            <ul>
-              <li>Developed internal admin dashboards and CRM tools using Laravel and .NET, improving team productivity and data visibility.</li>
-              <li>Delivered user authentication flows, advanced record search, and full CRUD management across multiple internal applications.</li>
-            </ul>
-          </div>
-        </div>
-
-        <div class="timeline-item">
-          <div class="timeline-dot"></div>
-          <div class="timeline-content">
-            <div class="timeline-header">
-              <h3>IT Intern</h3>
-              <span class="timeline-badge">2021</span>
-            </div>
-            <p class="timeline-company"><i class="fas fa-building"></i> Pakistan International Airlines (PIA)</p>
-            <ul>
-              <li>Rotated through telecom and IT departments, gaining hands-on exposure to enterprise networking and infrastructure operations.</li>
-              <li>Built a practical understanding of how large-scale IT systems are managed and maintained in a high-availability environment.</li>
-            </ul>
-          </div>
-        </div>
-
-      </div>
-    </div>
-
-    <!-- PROJECTS -->
-    <div class="Projects card reveal" id="projects">
-      <h2><i class="fas fa-laptop-code section-icon"></i> Projects</h2>
-      <p class="projects-note">
-        A selection of personal and private projects I built to explore real-world implementations.
-        <em>Paisa Flow Cash is a private project. Proprietary work done during employment remains confidential per company policy.</em>
+    <footer>
+      <p>
+        © 2026 Fatima Haider Naqvi &nbsp;·&nbsp; Built with passion & a lot of
+        coffee ☕
       </p>
+    </footer>
 
-      <div class="project-grid">
-
-        <div class="project-card">
-          <div class="project-icon"><i class="fas fa-money-bill-wave"></i></div>
-          <h3>Paisa Flow Cash</h3>
-          <p>A fintech cash flow management system built for real-world financial operations — tracking transactions, balances, and fund movement across accounts with a clean backend and intuitive interface. Deployed on AWS using EC2, S3, and RDS.</p>
-          <div class="project-links">
-            <a href="http://paisaflow-frontend-2026.s3-website-us-east-1.amazonaws.com/" target="_blank" class="btn-link"><i class="fas fa-external-link-alt"></i> Live Demo</a>
-            <a href="https://github.com/FatimaHNaqvi/PaisaFlow" target="_blank" class="btn-link"><i class="fab fa-github"></i> Code</a>
-          </div>
-        </div>
-
-        <div class="project-card">
-          <div class="project-icon"><i class="fas fa-calendar-check"></i></div>
-          <h3>Booking System</h3>
-          <p>Full-stack booking platform with a custom REST API backend and a clean, functional frontend.</p>
-          <div class="project-links">
-            <a href="https://demo-95mn.onrender.com/" target="_blank" class="btn-link"><i class="fas fa-external-link-alt"></i> Live Demo</a>
-            <a href="https://github.com/FatimaHNaqvi/demo-public" target="_blank" class="btn-link"><i class="fab fa-github"></i> Code</a>
-          </div>
-          <p class="project-note">⚡ Hosted on Render free-tier — may take a moment to wake up.</p>
-        </div>
-
-        <div class="project-card">
-          <div class="project-icon"><i class="fas fa-plug"></i></div>
-          <h3>API Integrations</h3>
-          <p>Standalone utility APIs: a number-to-dollar text converter and a temperature unit converter.</p>
-          <div class="project-links">
-            <a href="https://github.com/FatimaHNaqvi/numtodollar/" target="_blank" class="btn-link"><i class="fab fa-github"></i> Num to Dollar</a>
-            <a href="https://github.com/FatimaHNaqvi/tempc/" target="_blank" class="btn-link"><i class="fab fa-github"></i> Temp Converter</a>
-          </div>
-        </div>
-
-        <div class="project-card">
-          <div class="project-icon"><i class="fas fa-truck-moving"></i></div>
-          <h3>Moving Company Website</h3>
-          <p>Responsive marketing website for a moving company, built with Bootstrap for clean, mobile-first layouts.</p>
-          <div class="project-links">
-            <a href="https://fatimahnaqvi.github.io/Moving-company-Website/" target="_blank" class="btn-link"><i class="fas fa-external-link-alt"></i> Live</a>
-            <a href="https://github.com/FatimaHNaqvi/Moving-company-Website" target="_blank" class="btn-link"><i class="fab fa-github"></i> Code</a>
-          </div>
-        </div>
-
-        <div class="project-card">
-          <div class="project-icon"><i class="fas fa-id-card"></i></div>
-          <h3>Portfolio Website</h3>
-          <p>This portfolio — designed and built from scratch with a glassmorphism aesthetic, video background, and typed terminal effect.</p>
-          <div class="project-links">
-            <a href="https://fatimahnaqvi.github.io/Resume/" target="_blank" class="btn-link"><i class="fas fa-external-link-alt"></i> Live</a>
-            <a href="https://github.com/FatimaHNaqvi/Resume" target="_blank" class="btn-link"><i class="fab fa-github"></i> Code</a>
-          </div>
-        </div>
-
-      </div>
+    <div class="side-icons">
+      <a href="mailto:hnaqvifatima@gmail.com" target="_blank" title="Email">
+        <i class="fas fa-envelope"></i>
+      </a>
+      <a href="https://github.com/FatimaHNaqvi" target="_blank" title="GitHub">
+        <i class="fab fa-github"></i>
+      </a>
+      <a
+        href="https://www.linkedin.com/in/fatima-haider-naqvi-44529b214"
+        target="_blank"
+        title="LinkedIn"
+      >
+        <i class="fab fa-linkedin"></i>
+      </a>
     </div>
 
-    <!-- EDUCATION -->
-    <div class="education card reveal" id="education">
-      <h2><i class="fas fa-graduation-cap section-icon"></i> Education</h2>
-
-      <div class="timeline">
-
-        <div class="timeline-item">
-          <div class="timeline-dot"></div>
-          <div class="timeline-content">
-            <div class="timeline-header">
-              <h3>B.E. Telecommunication Engineering</h3>
-              <span class="timeline-badge">2018 – 2022</span>
-            </div>
-            <p class="timeline-company"><i class="fas fa-university"></i> NED University of Engineering and Technology, Karachi</p>
-            <p class="edu-grade"><i class="fas fa-star"></i> CGPA: 3.79 / 4.0</p>
-          </div>
-        </div>
-
-        <div class="timeline-item">
-          <div class="timeline-dot"></div>
-          <div class="timeline-content">
-            <div class="timeline-header">
-              <h3>Higher Secondary Certificate (HSC)</h3>
-              <span class="timeline-badge">2016 – 2018</span>
-            </div>
-            <p class="timeline-company"><i class="fas fa-school"></i> BAMM PECHS Govt. College for Women, Karachi</p>
-            <p class="edu-grade"><i class="fas fa-star"></i> Grade: A+</p>
-          </div>
-        </div>
-
-        <div class="timeline-item">
-          <div class="timeline-dot"></div>
-          <div class="timeline-content">
-            <div class="timeline-header">
-              <h3>Secondary School Certificate (SSC)</h3>
-              <span class="timeline-badge">2004 – 2016</span>
-            </div>
-            <p class="timeline-company"><i class="fas fa-school"></i> Azeem Children's Paradise School, Karachi</p>
-            <p class="edu-grade"><i class="fas fa-star"></i> Grade: A+</p>
-          </div>
-        </div>
-
-      </div>
-    </div>
-
-  </div>
-
-  <footer>
-    <p>© 2026 Fatima Haider Naqvi &nbsp;·&nbsp; Built with passion & a lot of coffee ☕</p>
-  </footer>
-
-  <div class="side-icons">
-    <a href="mailto:hnaqvifatima@gmail.com" target="_blank" title="Email">
-      <i class="fas fa-envelope"></i>
-    </a>
-    <a href="https://github.com/FatimaHNaqvi" target="_blank" title="GitHub">
-      <i class="fab fa-github"></i>
-    </a>
-    <a href="https://www.linkedin.com/in/fatima-haider-naqvi-44529b214" target="_blank" title="LinkedIn">
-      <i class="fab fa-linkedin"></i>
-    </a>
-  </div>
-
-  <script src="script.js"></script>
-</body>
+    <script src="script.js"></script>
+  </body>
 </html>
